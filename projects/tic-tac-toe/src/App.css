@@ -17,3 +17,17 @@
   min-height: 100vh;
   background-color: brown;
 }
+
+.square {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.table-grid {
+  display: grid;
+  row-gap: 10px;
+  box-shadow: 30px;
+  background-color: aqua;
+  box-sizing: border-box;
+
+}
