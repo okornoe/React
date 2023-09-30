@@ -9,28 +9,43 @@ const App = () => {
   return (
     <div className='App'>
 
-      <h1>Software Engineering</h1>
-      <h4>Software Engineering Cards</h4>
-      <table className='table-grid'>
-        <tr>
-        <td><Card title= "Testing" info="We learning about testing"/></td>
-        <td><Card title = "S.Development" info="software development"/></td>
-        <td><Card title = "S.Testing" info="Software Testing"/></td>
-        <td><Card title = "Automation" info="Software Automation"/></td>
-        </tr>
-        <tr>
-        <td><Card title = "Database" info="Database Design and implementation"/></td>
-        <td><Card title = "Calculus" info="Multi-variant calculus"/></td>
-        <td><Card title = "D.Modeling" info="Database modeling"/></td>
-        <td><Card title = "Ops. Research" info="Queing theory"/></td>
-        </tr>
-        <tr>
-        <td><Card title = "Data Structures" info="Data structures"/></td>
-        <td><Card title = "UI/UX Design" info="Human Interaction Design"/></td>
-        <td><Card title = "Algorithims" info="Designing Algorithims"/></td>
-        <td><Card title = "Security" info="Software security design methods"/></td>
-        </tr>
-      </table>
+      <h1>Software Engineering Cards</h1>
+    
+      <div className='card-grid'>
+        <div id='card-box'>
+          <Card title="Web Development" info="Prog. HTML and CSS"/>
+        </div>
+        <div id='card-box'>
+          <Card title="Basic Physics" info="Lesson on computer systems"/>
+        </div>
+        <div id='card-box'>
+          <Card title="Engineering Graphs" info="Lesson on graphic design"/>
+        </div>
+        <div id='card-box'>
+          <Card title="Engineering Maths" info="Lesson on Calculus"/>
+        </div>
+        <div id='card-box'>
+          <Card title="Database Systems" info="Database Design"/>
+        </div>
+        <div id='card-box'>
+          <Card title="OOP" info="Fundamentals of OOP"/>
+        </div>
+        <div id='card-box'>
+         <Card title="Java Development" info="Fundamentals of Java"/>
+        </div>
+        <div id='card-box'>
+          <Card title="Data Structures" info="Data Structures and Algorithim"/>
+        </div>
+        <div id='card-box'>
+          <Card title="Testing" info="Software Testing"/>
+        </div>
+        <div id='card-box'>
+          <Card title="Data Analysis" info="Using Python in Analysis"/>
+        </div>
+        <div id='card-box'>
+          <Card title="Operation Research" info="Modeling the real world"/>
+        </div>
+      </div>
     </div>
     
   )

@@ -1,3 +1,4 @@
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -15,8 +16,9 @@
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  background-color: brown;
+  background-color: rgb(245, 240, 240);
 }
+
 
 .square {
   margin-left: 10px;
@@ -30,4 +32,20 @@
   background-color: aqua;
   box-sizing: border-box;
 
+}
+
+.card-grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: rgb(189, 153, 109);
+}
+
+#card-box {
+  box-shadow: 10px;
+  background-color: rgb(230, 206, 189);
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 15px 25px;
 }
