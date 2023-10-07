@@ -4,7 +4,7 @@ Submitted by: **Kelvin Tetteh Okornoe**
 
 This web app: **This is a basic flahcard app, with questions answers. Users click on the card to reveal the answer**
 
-Time spent: **8** hours spent in total
+Time spent: **10** hours spent in total
 
 ## Required Features
 
