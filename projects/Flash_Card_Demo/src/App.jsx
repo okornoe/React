@@ -12,7 +12,7 @@ function App() {
   const [flashcards, setFlashcards] = useState(SAMPLE_FLASHCARDS)
   var [id, setId] = useState(0)
   const [correct_ans, setCorrectAns] = useState('');
-  //const [userInput, setUserInput] = useState(correct_ans);
+  const [previous_question, setPrevious_question] = useState(correct_ans);
 
   return (
     <>
