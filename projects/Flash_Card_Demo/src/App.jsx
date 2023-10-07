@@ -11,12 +11,14 @@ function App() {
  
   const [flashcards, setFlashcards] = useState(SAMPLE_FLASHCARDS)
   var [id, setId] = useState(0)
+  
   const [correct_ans, setCorrectAns] = useState('');
   const [previous_question, setPrevious_question] = useState(correct_ans);
 
   return (
     <>
       <FlashcardList flashcards={flashcards[id]} />
+      
       <div>
         <form>
           <label>
@@ -25,11 +27,12 @@ function App() {
             onChange={e => setCorrectAns(e.target.value)} id='message' value={correct_ans}></input>
           </label>
 
-        <button type='submit'  onClick={() => (correct_ans == flashcards[id].answer? alert("Correct Answer"):alert("Wrong Answer"))}>Submit</button>
+        <button type='submit' onClick={() => ( correct_ans == flashcards[id].answer? alert("Correct Answer"):alert("Wrong Answer"))}>Submit</button>
+        
         </form>
         <button type='next' onClick= {() =>setId(id = Math.floor(Math.random() * 10))} >Next</button>
         
-        <button type='previous' onClick={console.log("jjj")}>Previous</button>
+        <button type='previous' onClick={console.log("test")}>Previous</button>
       </div>
     </>
   )
