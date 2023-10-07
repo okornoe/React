@@ -11,7 +11,7 @@ Time spent: **8** hours spent in total
 The following **required** functionality is completed:
 
 - [X] **The user can enter their guess in a box before seeing the flipside of the card**
-- [ ] **Clicking on a submit button shows visual feedback about whether the answer was correct or incorrect**
+- [X] **Clicking on a submit button shows visual feedback about whether the answer was correct or incorrect**
 - [ ] **A back button is displayed on the card and can be used to return to the previous card in a set sequence**
 - [ ] **A next button is displayed on the card and can be used to navigate to the next card in a set sequence**
 
@@ -30,7 +30,8 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-![flashcard](https://github.com/okornoe/React/assets/12277906/18c5e62d-5655-4054-9312-230bbaa622b3)
+![flashcard_2](https://github.com/okornoe/React/assets/12277906/444e532a-798d-4cd2-ac61-acd6f90d8d27)
+
 
 
 <!-- Replace this with whatever GIF tool you used! -->
