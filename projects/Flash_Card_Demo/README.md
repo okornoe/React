@@ -44,7 +44,7 @@ Recommended tools:
 ## Notes
 
 Describe any challenges encountered while building the app.
-
+Implementing the next and back in a set sequence proof challenging and required more time to learn
 
 ## License
 
